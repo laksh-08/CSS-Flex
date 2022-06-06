@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+.head {
+  height: 80px;
+  background-color: rgb(167, 154, 154);
+  display: flex;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  position: sticky;
+  top: 0;
+}
+
+.head a:hover {
+  color: #8b5901;
+}
+.head li {
+  display: inline-block;
+  margin-top: 20px;
+  padding-left: 25px;
+  font-size: 25px;
+  text-transform: capitalize;
+}
+.head a {
+  text-decoration: none;
+  color: wheat;
+}
+.container {
+  background-image: url(images/image9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  background-color: rgb(99, 30, 99);
+  padding-top: 40px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.container h1 {
+  font-size: 45px;
+}
+.container p {
+  padding-top: 30px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  line-height: 30px;
+}
+#content {
+  background-color: rgb(240, 208, 240);
+}
+#content h1 {
+  text-transform: capitalize;
+  color: #8b5901;
+  padding: 20px 0 0 30px;
+}
+#content .images {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#content .images div {
+  margin: 20px;
+}
+#content img {
+  border: 4px solid black;
+  border-radius: 5px;
+  height: 170px;
+  width: 250px;
+}
+#content img:hover {
+  opacity: 0.6;
+  background-color: #444;
+  border: 6px solid rgb(12, 11, 11);
+  height: 190px;
+  width: 270px;
+  cursor: pointer;
+}
+.content2 {
+  background-image: url(images/image9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(99, 30, 99);
+  padding: 0 40px;
+  height: 250px;
+  display: flex;
+}
+
+#about {
+  background-color: rgb(240, 208, 240);
+  height: 270px;
+}
+#about h1 {
+  text-transform: capitalize;
+  color: #8b5901;
+  padding: 18px 0 0 30px;
+}
+.about1 {
+  text-align: center;
+  text-transform: capitalize;
+}
+.about1 h2 {
+  font-size: 25px;
+  word-spacing: 2px;
+}
+.about1 p {
+  padding: 30px 70px 0px 70px;
+  letter-spacing: 2px;
+  word-spacing: 4px;
+}
+
+#contact {
+  height: 200px;
+  background-color: #060c24;
+  display: flex;
+  justify-content: space-between;
+}
+.fa-phone,
+.fa-envelope,
+.fa-facebook {
+  color: #179aa8;
+  padding-left: 50px;
+  padding-top: 10px;
+}
+
+.contact1 {
+  padding: 40px 20px 20px 20px;
+}
+
+.contact1 i span,
+a {
+  padding-left: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+#contact .self p {
+  margin-right: 60px;
+  margin-top: 40px;
+  font-size: 40px;
+  color: white;
+  text-transform: capitalize;
+  line-height: 45px;
+}
+.footer {
+  height: 70px;
+  background-color: #0a1439;
+}
+.copy {
+  font-size: 18px;
+  color: #009aa9;
+  padding: 20px 0 0 60px;
+  text-transform: capitalize;
+}
